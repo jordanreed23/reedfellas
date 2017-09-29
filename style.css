@@ -1,0 +1,11 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(to bottom, rgb(0, 196, 226), rgb(0, 35, 155));
+}
+
+.content{
+  display: flex;
+  justify-content: space-around;
+}
