@@ -1,0 +1,26 @@
+{
+  "name": "reedfellas",
+  "version": "1.0.0",
+  "description": "reedfellas podcast website",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordanreed23/reedfellas.git"
+  },
+  "author": "Jordan Reed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jordanreed23/reedfellas/issues"
+  },
+  "homepage": "https://github.com/jordanreed23/reedfellas#readme",
+  "dependencies": {
+    "express": "^4.16.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  }
+}

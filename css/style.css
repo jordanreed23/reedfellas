@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(to bottom, #00c4e2, #00239b);
+  /*background-repeat: no-repeat;*/ }
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  color: #0a0e32; }
+
+.posts {
+  width: 45%; }
+
+.feed {
+  width: 20%; }
+
+div {
+  border: 1px solid white; }
+
+/*Tablet Styles*/
+/* Mobile Styles */
+@media only screen and (max-width: 450px) {
+  .feed {
+    display: none; }
+  .posts {
+    width: 95%; } }

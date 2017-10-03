@@ -1,0 +1,48 @@
+$gradientStart: rgb(0, 196, 226);
+$gradientEnd: rgb(0, 35, 155);
+$fontColor: rgb(10,14,50);
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(to bottom, $gradientStart, $gradientEnd);
+  /*background-repeat: no-repeat;*/
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  color: $fontColor;
+}
+
+.posts {
+  width: 45%;
+}
+
+.feed {
+  width: 20%;
+}
+
+div {
+  border: 1px solid white;
+}
+
+
+/*Tablet Styles*/
+
+@media only screen and (min-width: 451px) and (max-width: 900px) {
+
+}
+
+
+/* Mobile Styles */
+
+@media only screen and (max-width: 450px) {
+  .feed {
+    display: none;
+  }
+  .posts {
+    width: 95%;
+  }
+}
